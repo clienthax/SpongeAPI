@@ -120,8 +120,7 @@ processResources {
 }
 
 dependencies {
-    // Add custom checkstyle dependency (fixes a few wrong warnings about imports and @param tags in annotations)
-    checkstyle 'org.spongepowered:checkstyle:6.1.1-sponge1'
+    checkstyle 'com.puppycrawl.tools:checkstyle:6.11.1'
 }
 
 // Checkstyle settings
